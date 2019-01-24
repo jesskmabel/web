@@ -1,0 +1,292 @@
+body {
+	
+	margin-left: 15%;
+	font-family:"Dancing Script";
+	width: 900px;
+	color: #FFFFFF;
+	background-color:#061126;
+	animation-name: body-animacion;
+	animation-duration: 2s;
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	animation-delay: 1s;
+}
+body h1{
+	text-shadow:1px 2px #02010a
+}
+
+header{
+	padding: 3px 10px;
+	margin-bottom: 5px;
+	background-color: #5B7989;
+	border-radius:10px 10px 0px 0px;
+	
+}
+
+
+header h1{
+	padding-left: 10px; background-color: #5B7989;
+}
+@keyframes body-animacion{
+	
+	0% {
+		position:relative;
+	margin-top: 150%;
+	}
+	60% {
+		position: relative;
+		margin-top: -5%;
+	}
+	100% {
+		position: relative;
+		margin-top: 0px;
+	}
+}
+h1{text}
+#menu-principal ul {
+	float: right;
+	width: 300px;
+	padding: 0;
+	margin: 0;
+	color: #FFFFFF;
+	;
+}
+
+#menu-principal ul ol  {
+	padding: 0px 20px 0px 20px;
+	list-style-type:circle;
+	text-align: right;
+	color: azure;
+}
+a:link, a:visited{
+	color:cyan
+}
+#contenido {
+	align-content: center
+	padding: 0px 10p;
+	color: black;
+	border-radius: 6px;
+	
+}
+article[class="caja1"]
+{
+	background-color:#82c3a6;
+	align-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.contenedor {
+	display: flex;
+	flex-direction: row;
+	background-color:  #d5c75f;
+}
+
+img{
+	border: 2px solid white;
+}
+.contenedor > div {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	width: 100%;
+	box-shadow: 2px #82c3a6;
+}
+
+#imagen1 img{
+	width: 50%;
+	box-shadow: 2px 2px #82c3a6;
+}
+#imagen1 img:hover{
+	transform: rotate(10deg);
+}
+#imagen2 img{
+	width: 50%;
+			box-shadow: 2px 2px #82c3a6;
+}
+#imagen2 img:hover{
+	transform:translate(20px, -5px);
+	
+}
+
+#imagen{
+	display: none;
+}
+
+
+
+footer {
+	text-align:center;
+	width: 100%;
+	background-color: #C6d5c5;
+	color: darkblue;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.pie {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+
+.pie > div{
+	width: 100%;
+	margin: 25px;
+	padding-left: 30px;
+	}
+#contactos img {
+	width: 25%;
+	
+}
+#terminos img {
+	width: 25%;
+	
+}
+#derechos img {
+	width: 25%;
+	
+}
+#redes img {
+	width: 25%;
+		
+}
+
+#contenido p img {
+	float: right;
+	border: solid 2px #605B56;
+	margin: 3px;
+	border-radius: 4px;
+	background-color: #5B7989;
+}
+
+.contenedor1 > div {
+	text-align: justify;
+	padding: 10px;
+	margin: 10px;
+	width: 100%;
+	box-shadow: 2px #82c3a6;
+}
+.contenedor2 > div {
+	text-align: justify;
+	padding: 10px;
+	margin: 10px;
+	width: 100%;
+	box-shadow: 2px #82c3a6;
+}
+.contenedor1 {
+	display: flex;
+	flex-direction: row;
+	background-color:  #82c3a6;
+}
+.contenedor2 {
+	display: flex;
+	flex-direction: row;
+	background-color:  #82c3a6;
+}
+
+#imagen01 img{
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+	filter: grayscale(100%); width: 100%;
+}
+#imagen04 img{
+	-webkit-filter /* Chrome, Safari, Opera */
+	filter: sepia(90%); width: 100%;
+}
+#imagen03 img{
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+	filter: grayscale(100%); width: 100%;
+}
+
+#imagen00 img{
+	-webkit-filter: blur(10px); /* Chrome, Safari, Opera */
+	filter: blur(10px); width: 100%;
+}
+
+#imagen02 img{
+	-webkit-filter: sepia (90%); /* Chrome, Safari, Opera */
+	filter: sepia(90%); width: 100%;
+}
+
+#imagen05 img{
+	-webkit-filter: invert(100%); /* Chrome, Safari, Opera */
+	filter: grayscale(); width: 100%;
+}
+
+#bloque1 img{
+	-webkit-filter: blur(10px); /* Chrome, Safari, Opera */
+	filter: blur(10px); width: 100%;
+}
+
+#bloque2 img{
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+	filter: grayscale(100%); width: 100%;
+}
+
+#bloque3 img{
+	-webkit-filter: blur(10px); /* Chrome, Safari, Opera */
+	filter: sepia(90%); width: 100%;
+}
+
+#bloque4 img{
+	-webkit-filter: invert(100%); /* Chrome, Safari, Opera */
+	filter: grayscale(100%); width: 100%;
+}
+
+#bloque5 img{
+	-webkit-filter: /* Chrome, Safari, Opera */
+	filter: brightness(90%); width: 100%;
+}
+#bloque6 img{
+	-webkit-filter: sepia(90%); /* Chrome, Safari, Opera */
+	filter: grayscale(100%); width: 100%;
+}
+@media all and (max-width: 900px) {
+    #contenidofin {
+        width: 100%;
+    }
+    header {
+        text-align: center;
+    }
+    header h1 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    header nav {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #contenido div  {
+        width: 100%;
+    }
+    .contenedor div{
+        width: 100%;
+    }
+    footer div {
+        width: 100%;
+	}
+@media (min-width: 300px) {
+    #contenidofin {
+        width: 300px;
+		paddind left: -20px;
+    }
+    header h1 {
+        width: 70%;
+    }
+    header nav {
+        width: 30%;
+    }
+    #contenido div {
+        width: 100%;
+    }
+    .contenedor div {
+        width: 100%;
+    }
+    .pie div {
+        width: 15%;
+		text-align: left;
+		font-size: 13px;
+		margin-right: 25px;
+		margin-left: -10px;
+    }
+
+}
